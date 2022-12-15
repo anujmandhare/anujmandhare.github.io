@@ -157,7 +157,7 @@ let showCells = () => {
 let popup = (a) => {
     let data = document.querySelector('#notification').innerHTML = a;
     let winner = document.querySelector('#winner');
-    winner.appendChild(showData('winner' + Math.floor(Math.random() + 0.5), 200));
+    winner.appendChild(showData('winner0', 200));
 }
 
 let currentSelection = () => {
