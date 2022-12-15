@@ -1,0 +1,43 @@
+#gamedata {
+    display: flex;
+    flex-direction: column;
+    height: 500;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+::selection {
+    color: greenyellow;
+    background-color: transparent;
+}
+
+#newDiv {
+    padding: 0 8px;
+}
+
+#drawboard {
+    position: absolute;
+    pointer-events: none;
+}
+
+#gameboard {
+    margin: auto;
+}
+
+td.current {
+    border: red 1px solid;
+}
+
+#notification {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+}
+
+td.hidden {
+    background-color: transparent;
+    color: transparent;
+}
